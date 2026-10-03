@@ -1,0 +1,36 @@
+/* Load the Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* new font and a soft grey background */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f5f7;
+}
+
+/* Bold Heading */
+h1 {
+  font-weight: 700;
+}
+
+/* App name in the navbar */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Cards: no border, rounded corners, soft shadow */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeUp 0.5s ease;
+}
+
+/* Card titles: slightly smaller and bold */
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
